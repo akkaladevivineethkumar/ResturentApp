@@ -1,0 +1,57 @@
+.catImg {
+  height: 150px;
+  width: 150px;
+}
+.dishNames {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
+.dishCurrPrice {
+  color: grey;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 8px;
+  margin-top: 0px;
+}
+.CurrPrice {
+  display: flex;
+}
+.dishContainer {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
+    -5px -5px 10px rgba(255, 255, 255, 0.3);
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+}
+.dishDescription {
+  color: grey;
+  font-family: 'roboto';
+  font-size: 14px;
+  margin-top: 0px;
+}
+.Notavailable {
+  color: red;
+  font-family: 'roboto';
+  font-size: 14px;
+}
+.customization1 {
+  color: blueviolet;
+  font-family: 'roboto';
+  font-size: 14px;
+}
+.calories1 {
+  color: orange;
+  font-family: 'roboto';
+  font-size: 14px;
+}
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quantity-container {
+  display: flex;
+}
